@@ -9,8 +9,6 @@ Source0:	http://www.shallowsky.com/software/pandora/pandora-%{version}.tar.gz
 # Source0-md5:	e094d3546ca51acb4f3c13ae95acf8c9
 URL:		http://www.shallowsky.com/software/pandora/
 BuildRequires:	gimp-devel
-BuildRequires:	gtk+2-devel
-BuildRequires:	X11-devel
 Requires:	gimp
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
