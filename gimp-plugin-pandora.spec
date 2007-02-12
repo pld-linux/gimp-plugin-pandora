@@ -1,5 +1,5 @@
 Summary:	Pandora - a Gimp plugin for making panoramas
-Summary(pl):	Pandora - wtyczka Gimpa do tworzenia panoram
+Summary(pl.UTF-8):   Pandora - wtyczka Gimpa do tworzenia panoram
 Name:		gimp-plugin-pandora
 Version:	0.7.1
 Release:	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Pandora is a Gimp plugin for making quick panoramas.
 
-%description -l pl
-Pandora jest wtyczk± Gimpa do szybkiego tworzenia panoram.
+%description -l pl.UTF-8
+Pandora jest wtyczkÄ… Gimpa do szybkiego tworzenia panoram.
 
 %prep
 %setup -q -n pandora-%{version}
